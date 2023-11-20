@@ -43,26 +43,20 @@
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
 border-style: solid;
 border-width: 1px;
 border-color: #464646;
+border-radius: 5%;
 padding: 2;
-}
-
-QLabel:hover {
-background-color: #3B3B3B;
-}
-
-QLabel:pressed {
-background-color: #282828;
-color: #cecece;
 }</string>
     </property>
     <property name="text">
      <string>Choose .obj file</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="pathButton">
@@ -76,22 +70,20 @@ color: #cecece;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #6b69d6;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #6b69d6;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-border-color: #a6a5e6;
+background-color: #9690c2;
 }
 
 QPushButton:pressed {
-background-color: #797979;
-border-color: #797979;
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -356,22 +348,20 @@ font: 14pt &quot;Sans Serif Collection&quot;;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #6b69d6;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #6b69d6;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-border-color: #a6a5e6;
+background-color: #9690c2;
 }
 
 QPushButton:pressed {
-background-color: #797979;
-border-color: #797979;
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -417,7 +407,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -434,7 +426,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -464,7 +456,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -481,7 +475,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -503,12 +497,12 @@ border-radius: 9px;
     </property>
     <property name="styleSheet">
      <string notr="true">QDoubleSpinBox {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
 border-style: solid;
 border-width: 1px;
 border-color: #464646;
+border-radius: 5%;
 padding: 2;
 }
 
@@ -516,13 +510,16 @@ QDoubleSpinBox:hover {
 background-color: #3B3B3B;
 }
 
-QDoubleSpinBox::up-button { width: 20px;
+QDoubleSpinBox::up-button { width: 0px;
 border:0;
 }
 
-QDoubleSpinBox::down-button { width: 20px;
+QDoubleSpinBox::down-button { width: 0px;
 border: 0;
 }</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QRadioButton" name="noneInVertices">
@@ -544,7 +541,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -561,7 +560,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -610,7 +609,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -627,7 +628,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -657,7 +658,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -674,7 +677,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -696,22 +699,20 @@ border-radius: 9px;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #6b69d6;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #6b69d6;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-border-color: #a6a5e6;
+background-color: #9690c2;
 }
 
 QPushButton:pressed {
-background-color: #797979;
-border-color: #797979;
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -779,7 +780,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -796,7 +799,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -826,7 +829,9 @@ font: 14pt &quot;Sans Serif Collection&quot;;
 QRadioButton:hover {
 border-style: solid;
 border-width: 2px;
-border-color: #6b69d6;}
+border-color: #b5adeb;
+border-radius: 5%;
+margin: 2;}
 
 QRadioButton:pressed {
 background-color: #282828;
@@ -843,7 +848,7 @@ border: 2px solid  #ffffff;
 QRadioButton::indicator:checked {
 width: 10px;
 height: 10px;
-border: 4px solid  #6b69d6;
+border: 4px solid  #b5adeb;;
 border-radius: 9px;
 }</string>
     </property>
@@ -865,12 +870,12 @@ border-radius: 9px;
     </property>
     <property name="styleSheet">
      <string notr="true">QDoubleSpinBox {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
 border-style: solid;
 border-width: 1px;
 border-color: #464646;
+border-radius: 5%;
 padding: 2;
 }
 
@@ -878,13 +883,16 @@ QDoubleSpinBox:hover {
 background-color: #3B3B3B;
 }
 
-QDoubleSpinBox::up-button { width: 20px;
+QDoubleSpinBox::up-button { width: 0px;
 border:0;
 }
 
-QDoubleSpinBox::down-button { width: 20px;
+QDoubleSpinBox::down-button { width: 0px;
 border: 0;
 }</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="screenButton">
@@ -898,22 +906,20 @@ border: 0;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #6b69d6;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #6b69d6;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-border-color: #a6a5e6;
+background-color: #9690c2;
 }
 
 QPushButton:pressed {
-background-color: #797979;
-border-color: #797979;
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -1010,22 +1016,20 @@ font: 14pt &quot;Sans Serif Collection&quot;;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #6b69d6;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #6b69d6;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-border-color: #a6a5e6;
+background-color: #9690c2;
 }
 
 QPushButton:pressed {
-background-color: #797979;
-border-color: #797979;
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -1043,22 +1047,20 @@ border-color: #797979;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #6b69d6;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #6b69d6;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-border-color: #a6a5e6;
+background-color: #9690c2;
 }
 
 QPushButton:pressed {
-background-color: #797979;
-border-color: #797979;
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -1069,28 +1071,23 @@ border-color: #797979;
     <property name="geometry">
      <rect>
       <x>1700</x>
-      <y>85</y>
+      <y>83</y>
       <width>190</width>
       <height>30</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
 padding: 2;
-}
-
-QLabel:hover {
-background-color: #3B3B3B;
 }</string>
     </property>
     <property name="text">
      <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="edges">
@@ -1104,21 +1101,16 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
 padding: 2;
-}
-
-QLabel:hover {
-background-color: #3B3B3B;
 }</string>
     </property>
     <property name="text">
      <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="lowerScaleButton">
@@ -1132,17 +1124,20 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
-font: 20pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding-bottom: 5;
+background-color: #b5adeb;
+color: #2e2c3c;
+font: 16pt &quot;Sans Serif Collection&quot;;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -1160,17 +1155,20 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
@@ -1263,21 +1261,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡐</string>
+     <string>&lt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="translateUpX">
@@ -1291,21 +1292,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡒</string>
+     <string>&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="translateDownY">
@@ -1319,21 +1323,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡓</string>
+     <string>&lt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="translateUpY">
@@ -1347,21 +1354,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡑</string>
+     <string>&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="translateDownZ">
@@ -1375,21 +1385,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡔</string>
+     <string>&lt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="translateUpZ">
@@ -1403,21 +1416,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡖</string>
+     <string>&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="rotateDownZ">
@@ -1431,21 +1447,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡔</string>
+     <string>&lt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="rotateUpZ">
@@ -1459,21 +1478,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡖</string>
+     <string>&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="rotateUpY">
@@ -1487,21 +1509,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡒</string>
+     <string>&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="rotateDownX">
@@ -1515,21 +1540,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡓</string>
+     <string>&lt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="rotateDownY">
@@ -1543,21 +1571,24 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡐</string>
+     <string>&lt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="rotateUpX">
@@ -1571,45 +1602,40 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #191919;
-color: #ffffff;
+background-color: #b5adeb;
+color: #2e2c3c;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
-padding: 2;
+border-radius: 5%;
+margin: 2;
 }
 
 QPushButton:hover {
-background-color: #3B3B3B;
+background-color: #9690c2;
+}
+
+QPushButton:pressed {
+background-color: #9690c2;
+color: #605c7c;
 }</string>
     </property>
     <property name="text">
-     <string>🡑</string>
+     <string>&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_18">
     <property name="geometry">
      <rect>
-      <x>1700</x>
+      <x>1715</x>
       <y>185</y>
-      <width>90</width>
+      <width>70</width>
       <height>30</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
 padding: 2;
-}
-
-QLabel:hover {
-background-color: #3B3B3B;
 }</string>
     </property>
     <property name="text">
@@ -1619,25 +1645,17 @@ background-color: #3B3B3B;
    <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>1700</x>
+      <x>1715</x>
       <y>365</y>
-      <width>90</width>
+      <width>70</width>
       <height>30</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
-border-style: solid;
-border-width: 1px;
-border-color: #464646;
 padding: 2;
-}
-
-QLabel:hover {
-background-color: #3B3B3B;
 }</string>
     </property>
     <property name="text">
@@ -1655,12 +1673,12 @@ background-color: #3B3B3B;
     </property>
     <property name="styleSheet">
      <string notr="true">QDoubleSpinBox {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
 border-style: solid;
 border-width: 1px;
 border-color: #464646;
+border-radius: 5%;
 padding: 2;
 }
 
@@ -1668,13 +1686,16 @@ QDoubleSpinBox:hover {
 background-color: #3B3B3B;
 }
 
-QDoubleSpinBox::up-button { width: 20px;
+QDoubleSpinBox::up-button { width: 0px;
 border:0;
 }
 
-QDoubleSpinBox::down-button { width: 20px;
+QDoubleSpinBox::down-button { width: 0px;
 border: 0;
 }</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
     <property name="minimum">
      <double>1.000000000000000</double>
@@ -1691,12 +1712,12 @@ border: 0;
     </property>
     <property name="styleSheet">
      <string notr="true">QDoubleSpinBox {
-background-color: #191919;
 color: #ffffff;
 font: 14pt &quot;Sans Serif Collection&quot;;
 border-style: solid;
 border-width: 1px;
 border-color: #464646;
+border-radius: 5%;
 padding: 2;
 }
 
@@ -1704,16 +1725,51 @@ QDoubleSpinBox:hover {
 background-color: #3B3B3B;
 }
 
-QDoubleSpinBox::up-button { width: 20px;
+QDoubleSpinBox::up-button { width: 0px;
 border:0;
 }
 
-QDoubleSpinBox::down-button { width: 20px;
+QDoubleSpinBox::down-button { width: 0px;
 border: 0;
 }</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
     <property name="minimum">
      <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>1690</x>
+      <y>185</y>
+      <width>20</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Line{color: #464646;}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>1690</x>
+      <y>365</y>
+      <width>20</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Line{color: #464646;}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
     </property>
    </widget>
   </widget>
@@ -1729,8 +1785,8 @@ border: 0;
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="projectionRButtons"/>
-  <buttongroup name="vertexTypeRButtons"/>
   <buttongroup name="edgesTypeRButtons"/>
+  <buttongroup name="vertexTypeRButtons"/>
+  <buttongroup name="projectionRButtons"/>
  </buttongroups>
 </ui>
