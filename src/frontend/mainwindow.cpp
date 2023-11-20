@@ -37,6 +37,8 @@ void MainWindow::on_pathButton_clicked() {
   QString path = QFileDialog::getOpenFileName(NULL, "Open a file", "", filter);
   if (path.isEmpty()) {
     ui->label->setText("Choose .obj file");
+    ui->vertices->setText("0");
+    ui->edges->setText("0");
     QMessageBox::information(NULL, "Error", "Вы не выбрали файл");
   } else {
     ui->label->setText(path);
